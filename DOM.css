@@ -1,0 +1,80 @@
+.flexbox-container {
+    height: 400px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    margin: 50px;
+    background: #fff;
+}
+
+.flexbox-item {
+    width: 300px;
+    margin: 30px;
+}
+
+.container .changeColor {
+    border: 0;
+    margin-top: 15px;
+    width: 100px;
+    padding: 10px;
+    background: rgb(95, 172, 207);
+    color: white;
+    border-radius: 6px;
+    margin-left: 200px;
+}
+
+.alert {
+    margin-top: 90px;
+    margin-left: 185px;
+    margin-right: 340px;
+    padding: 7px;
+    background-color: rgb(184, 226, 159);
+    color: green;
+}
+
+.closeBtn {
+    margin-left: 320px;
+    color: green;
+    font-weight: bold;
+    float: right;
+    font-size: 25px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.checkBtn {
+    border-style: none;
+    border-color: green;
+}
+
+.closeBtn:hover {
+    color: black;
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+}
+
+.flexbox-item-2 {
+    min-height: 200px;
+}
+
+.changeColor {
+    background-color: rgb(79, 169, 211);
+    color: white;
+    padding: 8px;
+    width: 70px;
+    margin-left: 240px;
+}
+
+#firstName {
+    width: 300px;
+}
+
+#secondName {
+    width: 300px;
+}
